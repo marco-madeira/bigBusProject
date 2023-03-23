@@ -2,7 +2,7 @@
 
 Para conseguir rodar localmente esse projeto algumas etapas são requeridas.
 
-1: Para povoar o banco é necessario utilizar o script.sql. Como o backend está configurado para postgres, caso o usuario queira rodar em outros SGBD'S, deve-se adicionar a dependecy no arquivo pom.xml que está dentro da pasta bigBusBack.
+1: Para povoar o banco é necessario utilizar o script.sql, que esta dentro da pasta Entregáveis BD. Como o backend está configurado para postgres, caso o usuario queira rodar em outros SGBD'S, deve-se adicionar a dependecy no arquivo pom.xml que está dentro da pasta bigBusBack.
 
 2.Ainda na pasta bigBusBack, procurar por application.properties(bigBusBack/source/main/resource), e configure os dados de conexão ao banco.
 
